@@ -7,7 +7,11 @@ class PleaseStandUp {
     */
 
    howOld(birthday){
-        return -1;
+       // Create a variabe for age and birthday
+    
+       // get difference between previous year and current year
+       // return age
+        return age;
     }
 
     /*
@@ -18,7 +22,14 @@ class PleaseStandUp {
     */
 
     timeConvert(numOfMins){
-        return -1;
+        // Return the hours only and round down
+        let hours = math.floor(numOfMins/60);
+        // Return the remaining value left over from hours
+        let mins = math.floor(numOfMins % 60);
+        // Return the remaining value left from mins
+        let sec = math.floor(numOfMins % 60)
+        // Return sum of hours, mins, and sec
+        return hours + ":" + mins + ":" + sec;
     }
 
 }
